@@ -1,0 +1,36 @@
+
+.sidebar {
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    top: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 150;
+}
+
+.sideicons {
+    width: 25px;
+    height: 25px;
+    /* margin-left: 37px;
+    margin-right: 37px;
+    margin-top: 12px; */
+    margin: auto;
+    display: block;
+}
+
+.iconnames {
+    text-align: center;
+}
+
+#d1 {
+    background-color: white;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+#d1:hover {
+    background-color: rgb(242, 242, 242);
+}

@@ -1,0 +1,265 @@
+
+.videoscreen {
+    display: flex;
+    justify-content: center;
+}
+
+.videondetails {
+    padding: 24px 24px 0 0;
+    margin-left: 24px;
+}
+
+.video {
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.channeldp {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.dp {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 5px 5px 5px 0;
+}
+
+.channeldetails {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 3px;
+}
+
+.channelname2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0 3px 0;
+}
+
+.subscribers {
+    font-size: 12px;
+    margin: 3px 0 0px 0;
+}
+
+.subbutton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.response {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    margin-right: 4px;
+}
+
+.likebtn {
+    height: 35px;
+    padding: 0 50px 0 0;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+}
+
+.like {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.dislikebtn {
+    width: 40px;
+    height: 35px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    border-left: 1px solid;
+    border-color: rgb(192, 192, 192);
+}
+
+.dislike {
+    width: 15px;
+    height: 15px;
+}
+
+.likedetails {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    position: absolute;
+    top: 8px;
+    left: 35px;
+}
+
+.sharebutton {
+    position: relative;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.sharebtn {
+    height: 35px;
+    padding: 0 50px 0 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.share {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.sharetext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    position: absolute;
+    top: 8px;
+    left: 35px;
+}
+
+.morebtn {
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 4px;
+}
+
+.more {
+    width: 30px;
+    height: 30px;
+}
+
+.totalvideo {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail {
+    position: relative;
+
+}
+
+.thumbnailpic {
+    width: 200px;
+    border-radius: 25px;
+}
+
+.time {
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.recommendations {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    padding: 24px 0 0 0;
+}
+
+.details {
+    margin-left: 10px;
+}
+
+.videotitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 200px;
+    margin: 0px;
+}
+
+.channel {
+    position: relative;
+}
+
+.channelname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin: 0px 0 3px 0;
+
+}
+
+.videostats {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#i1 {
+    display: inline-block;
+    width: 15px;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+}
+
+#i2 {
+    display: inline-block;
+    width: 15px;
+    position: absolute;
+    left: 112px;
+    top: 0px;
+}
+
+#i3 {
+    display: inline-block;
+    width: 15px;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+}
+
+.description {
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+    padding-left: 12px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+#d1,#d2,#d3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

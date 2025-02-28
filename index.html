@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/video.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        
+        <title>YouTube Clone</title>
+    </head>
+
+    <body>
+        <div class="sidebar">
+            <div class="home" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/home.svg" alt="home" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">Home</p>
+                </div>
+            </div>
+
+            <div class="trending" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/trending.svg" alt="trend" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">Trending</p>
+                </div>
+            </div>
+
+            <div class="shorts" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/shorts.svg" alt="shorts" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">Shorts</p>
+                </div>
+            </div>
+
+            <div class="subscriptions" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/subscriptions.svg" alt="subscriptions" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">Subscriptions</p>
+                </div>
+            </div>
+
+            <div class="you" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/you.svg" alt="you" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">You</p>
+                </div>
+            </div>
+
+            <div class="history" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/history.svg" alt="history" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">History</p>
+                </div>
+            </div>
+
+            <div class="settings" id="d1">
+                <div class="sidebaricons">
+                    <img src="icons/settings.svg" alt="setting" class="sideicons">
+                </div>
+    
+                <div class="sidenames">
+                    <p class="iconnames">Settings</p>
+                </div>
+            </div>
+            
+        </div>
+            
+        <div class="header">
+            <div class="leftsection">
+                <img class="youtubemenu" src="icons/menu.svg" alt="YM">
+
+                <a href="#">
+                    <img class="youtubelogo" src="icons/youtube-logo.svg" alt="YL">
+                </a>
+                
+            </div>
+
+            <div class="middlesection">
+                <input class="searchbar" type="text" placeholder="Search">
+            
+                <button type="button" class="searchbutton"><img src="icons/search-button.svg" alt="SI" class="searchicon"></button>
+            
+                <button type="button" class="voicesearch"><img src="icons/mic.svg" alt="MC" class="mic"></button>
+            </div>
+
+            <div class="rightsection">
+                <button type="button" class="createshorts"><img src="icons/create-shorts.svg" alt="CS" class="create"></button>
+
+                <button type="button" class="notification"><img src="icons/notifications.svg" alt="NF" class="alerts"></button>
+
+                <button type="button" class="profile"><img src="channel dps/channels_profile_own.jpg" alt="PP" class="profilepic"></button>
+
+                <p class="noti">3</p>
+            </div>
+        </div>
+
+        <div class="videogrid">    
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <a href="videopage.html?video=video/Tom and Jerry.mp4&title=Is You Is Or Is You Ain't My Baby&channel=Doc Henry&profile=channel dps/channels_profile1.jpg">
+                        <img class="thumbnailpic" src="thumbnails/thumbnail-1.webp">
+                    </a>
+
+                    <p class="time">02:24</p>
+                </div>
+                
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile1.jpg" alt="DH" class="displaypic">
+                    </div>
+                    
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Is You Is Or Is You Ain't My Baby (with lyrics)</p>
+                        </div>
+
+                        <div class="channel">
+                            <p class="channelname">Doc Henry</p>
+                        </div>
+                        
+                        <div class="stats">
+                            <p class="videostats">6.3M views &#183; 9 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <a href="videopage.html?video=video/Types Of People At The Gym.mp4&title=Types Of People At The Gym | Jordindian&channel=Jordindian&profile=channel dps/channels_profile5.jpg">
+                        <img class="thumbnailpic" src="thumbnails/thumbnail-5.webp">
+                    </a>
+                                
+                    <p class="time">10:21</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile5.jpg" alt="JI" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Types Of People At The Gym | Jordindian</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Jordindian</p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">3.1M views &#183; 1 year ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <a href="videopage.html?video=video/Ta Takkara.mp4&title=Ta Takkara (Telugu) - Video Song | Kalki 2898 AD | Prabhas | Disha Patani | Santhosh Narayanan&channel=Saregama Telugu&profile=channel dps/channels_profile3.jpg">
+                        <img class="thumbnailpic" src="thumbnails/thumbnail-3.webp">
+                    </a>                    
+                                
+                    <p class="time">04:44</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile3.jpg" alt="ST" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Ta Takkara (Telugu) - Video Song | Kalki 2898 AD | Prabhas | Disha Patani | Santhosh Narayanan</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Saregama Telugu </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">8.5M views &#183; 4 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <a href="videopage.html?video=video/How to Fight Negative Thoughts and Win  Power Of Ignoring Negative Thoughts.mp4&title=How to Fight Negative Thoughts and Win | Power Of Ignoring Negative Thoughts | Buddhist Story&channel=Words of Wisdom&profile=channel dps/channels_profile4.jpg">
+                        <img class="thumbnailpic" src="thumbnails/thumbnail-4.webp">
+                    </a>
+                                
+                    <p class="time">09:13</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile4.jpg" alt="WW" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">How to Fight Negative Thoughts and Win | Power Of Ignoring Negative Thoughts | Buddhist Story </p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Words of Wisdom</p>
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">223K views &#183; 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-2.webp">
+                
+                    <p class="time">14:54</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile2.jpg" alt="FC" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">World Championship Of Legends, 2024 | England vs India | Highlights</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">FanCode </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">968K views &#183; 12 hours ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-6.webp">
+                                
+                    <p class="time">12:34</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile6.jpg" alt="RT" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Animated Download Button with Progress Animation Advanced Javascript Project</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Royal Tutorials</p>
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">234 views &#183; 2 days ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-7.webp">
+                                
+                    <p class="time">11:56</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile7.jpg" alt="DC" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Kiccha Sudeep recounts meeting legends</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Deccan Herald </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">114K views &#183; 1 year ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-8.webp">
+                                
+                    <p class="time">21:08</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile8.jpg" alt="MW" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">The Modern DREAM Home Theater Room Makeover 2024</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Mike Wat</p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">1.6M views &#183; 1 year ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-9.webp">
+                                
+                    <p class="time">04:12</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile9.jpg" alt="SK" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Do you have 2 potatoes at home prepare this delicious potato breakfast | Breakfast Recipe</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Smart Kitchen</p>
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">253 views &#183; 3 days ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-10.webp">
+                                
+                    <p class="time">10:15</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile10.jpg" alt="VM" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Sundar Pichai's advice for Indian Engineers, AI and India, Wrapper Startups, and More!</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Varun Mayya </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">559K views &#183; 1 month ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-11.webp">
+                                
+                    <p class="time">08:04</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile11.jpg" alt="BM" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">The Perfect Workout Routine For Teens (Science-Based)</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Brett Maverick </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">2.5M views &#183; 1 year ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-12.webp">
+                                
+                    <p class="time">58:58</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile12.jpg" alt="GT" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Rich Kid vs Broke Girl - Gadgets vs Hacks - Funny Relatable Situations</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Gotcha! </p>
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">17M views &#183; 1 month ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-13.webp">
+                                
+                    <p class="time">12:35</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile13.jpg" alt="FA" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Funniest Cats and Dogs 🐶🐱 | Funny Animal Videos #35</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Funny Animals' Town </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">5.9M views &#183; 8 months ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-14.webp">
+                                
+                    <p class="time">10:36</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile14.jpg" alt="PA" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">(Part1) 11 Basic Guitar Chords that every Beginner Guitarist should know ~ Open Major & Minor Chords</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Piku Attri </p>
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">8.1M views &#183; 3 years ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-15.webp">
+                                
+                    <p class="time">7:47</p>
+                </div>
+
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile15.jpg" alt="GS" class="displaypic">
+                    </div>
+
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Phishing Attack | Cybersecurity | Ethical Hacking</p>
+                        </div>
+                        
+                        <div class="channel">
+                            <p class="channelname">Gate Smashers </p>
+
+                            <img id="i1" src="icons/tick.svg">
+                        </div>
+
+                        <div class="stats">
+                            <p class="videostats">8.1K views &#183; 2 months ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="totalvideo">
+                <div class="thumbnail">
+                    <img class="thumbnailpic" src="thumbnails/thumbnail-16.webp">
+
+                    <p class="time">13:51</p>
+                </div>
+                
+                <div class="videodetails">
+                    <div class="icon">
+                        <img src="channel dps/channels_profile16.jpg" alt="RM" class="displaypic">
+                    </div>
+                    
+                    <div class="details">
+                        <div class="title">
+                            <p class="videotitle">Crowd Work | Family Trip | Stand Up Comedy By Rajasekhar Mamidanna</p>
+                        </div>
+
+                        <div class="channel">
+                            <p class="channelname">Rajasekhar Mamidanna</p>
+                        </div>
+                        
+                        <div class="stats">
+                            <p class="videostats">557K views &#183; 8 months ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>    
+    </body>
+
+</html>
